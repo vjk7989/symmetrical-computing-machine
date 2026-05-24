@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const BlogLatestPost = () => {
     return (
         <>
@@ -9,7 +11,7 @@ const BlogLatestPost = () => {
                 <div className="sidebar__post-box">
                     <div className="sidebar__post-single">
                         <div className="sidebar-post__img">
-                            <img src="/assets/images/blog/lp-1-1.jpg" alt="" />
+                            <img src={p+'/assets/images/blog/lp-1-1.jpg'} alt="" />
                         </div>
                         <div className="sidebar__post-content-box">
                             <h3><Link href="/blog-details">Nemo enim ipsam voluptatem quia voluptas sit aspernatur </Link></h3>
@@ -17,7 +19,7 @@ const BlogLatestPost = () => {
                     </div>
                     <div className="sidebar__post-single">
                         <div className="sidebar-post__img">
-                            <img src="/assets/images/blog/lp-1-2.jpg" alt="" />
+                            <img src={p+'/assets/images/blog/lp-1-2.jpg'} alt="" />
                         </div>
                         <div className="sidebar__post-content-box">
                             <h3><Link href="/blog-details">Nemo enim ipsam voluptatem quia voluptas sit aspernatur </Link></h3>
@@ -25,7 +27,7 @@ const BlogLatestPost = () => {
                     </div>
                     <div className="sidebar__post-single">
                         <div className="sidebar-post__img">
-                            <img src="/assets/images/blog/lp-1-3.jpg" alt="" />
+                            <img src={p+'/assets/images/blog/lp-1-3.jpg'} alt="" />
                         </div>
                         <div className="sidebar__post-content-box">
                             <h3><Link href="/blog-details">Nemo enim ipsam voluptatem quia voluptas sit aspernatur </Link></h3>

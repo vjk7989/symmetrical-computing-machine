@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const FooterOne = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const FooterOne = () => {
                             <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                 <div className="footer-widget__column footer-widget__about">
                                     <div className="footer-widget__about-logo">
-                                        <Link href="/"><img src="/assets/images/icon/logo.jpeg" style={{height:"80px"}}  alt="" /></Link>
+                                        <Link href="/"><img src={p+'/assets/images/icon/logo.jpeg'} style={{height:"80px"}}  alt="" /></Link>
                                     </div>
                                     <p className="footer-widget__about-text">The agile philosophy in lot of the process of
                                         analyzing, plannin, and implementing strategies level.plannin
@@ -43,7 +45,7 @@ const FooterOne = () => {
                                     <ul className="footer-widget__blog-list list-unstyled clearfix">
                                         <li>
                                             <div className="footer-widget__blog-img">
-                                                <img src="/assets/images/blog/footer-widget-blog-img-1.jpg" alt="" />
+                                                <img src={p+'/assets/images/blog/footer-widget-blog-img-1.jpg'} alt="" />
                                                 <Link href="/blog-details"><i className="icon-link"></i></Link>
                                             </div>
                                             <div className="footer-widget__blog-content">
@@ -55,7 +57,7 @@ const FooterOne = () => {
                                         </li>
                                         <li>
                                             <div className="footer-widget__blog-img">
-                                                <img src="/assets/images/blog/footer-widget-blog-img-2.jpg" alt="" />
+                                                <img src={p+'/assets/images/blog/footer-widget-blog-img-2.jpg'} alt="" />
                                                 <Link href="/blog-details"><i className="icon-link"></i></Link>
                                             </div>
                                             <div className="footer-widget__blog-content">

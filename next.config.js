@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
+const basePath = '/symmetrical-computing-machine';
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: '/symmetrical-computing-machine',
+  basePath,
   images: {
     unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 }
 

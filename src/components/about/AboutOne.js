@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const AboutOne = () => {
     return (
         <>
@@ -15,7 +17,7 @@ const AboutOne = () => {
                             <div className="row">
                                 <div className="col-xl-6 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                                     <div className="about-one__img zoom-fade">
-                                        <img src="/assets/images/resources/about-one-img-1.png" alt="" />
+                                        <img src={p+'/assets/images/resources/about-one-img-1.png'} alt="" />
                                     </div>
                                 </div>
                                 <div className="col-xl-6">

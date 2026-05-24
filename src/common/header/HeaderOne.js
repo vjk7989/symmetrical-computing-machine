@@ -3,6 +3,8 @@ import NavMenu from './NavMenu';
 import Sidebar from './sidebar';
 import Link from 'next/link';
 
+const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const HeaderOne = () => {
     const [isActive, setIsActive] = useState(false);
     return (
@@ -56,7 +58,7 @@ const HeaderOne = () => {
                         <div className="main-menu-wrapper clearfix">
                             <div className="main-menu-wrapper__left">
                                 <div className="main-menu-wrapper__logo">
-                                    <Link href="/"><img src="/assets/images/icon/logo.jpeg" style={{height:"80px"}} alt="" /></Link>
+                                    <Link href="/"><img src={p+'/assets/images/icon/logo.jpeg'} style={{height:"80px"}} alt="" /></Link>
                                 </div>
                             </div>
                             <div className="main-menu-wrapper__right">

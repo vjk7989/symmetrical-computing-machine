@@ -1,8 +1,9 @@
 // Testimonial One
+const bp = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export const TestimonialOneData = [
     {
         id: 1,
-        image: "/assets/images/testimonial/testimonial-one-img-1.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
         alt: "Testimonial",
         name: "Rashal Khan",
         position: "Founder",
@@ -10,7 +11,7 @@ export const TestimonialOneData = [
     },
     {
         id: 2,
-        image: "/assets/images/testimonial/testimonial-one-img-2.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
         alt: "Testimonial",
         name: "Rubel Islam",
         position: "Manager",
@@ -18,7 +19,7 @@ export const TestimonialOneData = [
     },
     {
         id: 3,
-        image: "/assets/images/testimonial/testimonial-one-img-1.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
         alt: "Testimonial",
         name: "Rashal Khan",
         position: "Founder",
@@ -26,7 +27,7 @@ export const TestimonialOneData = [
     },
     {
         id: 4,
-        image: "/assets/images/testimonial/testimonial-one-img-2.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
         alt: "Testimonial",
         name: "Rubel Islam",
         position: "Manager",
@@ -34,7 +35,7 @@ export const TestimonialOneData = [
     },
     {
         id: 5,
-        image: "/assets/images/testimonial/testimonial-one-img-1.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
         alt: "Testimonial",
         name: "Rashal Khan",
         position: "Founder",
@@ -42,7 +43,7 @@ export const TestimonialOneData = [
     },
     {
         id: 6,
-        image: "/assets/images/testimonial/testimonial-one-img-2.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
         alt: "Testimonial",
         name: "Rubel Islam",
         position: "Manager",
@@ -50,7 +51,7 @@ export const TestimonialOneData = [
     },
     {
         id: 7,
-        image: "/assets/images/testimonial/testimonial-one-img-1.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
         alt: "Testimonial",
         name: "Rashal Khan",
         position: "Founder",
@@ -58,7 +59,7 @@ export const TestimonialOneData = [
     },
     {
         id: 8,
-        image: "/assets/images/testimonial/testimonial-one-img-2.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
         alt: "Testimonial",
         name: "Rubel Islam",
         position: "Manager",
@@ -66,7 +67,7 @@ export const TestimonialOneData = [
     },
     {
         id: 9,
-        image: "/assets/images/testimonial/testimonial-one-img-1.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
         alt: "Testimonial",
         name: "Rashal Khan",
         position: "Founder",
@@ -74,7 +75,89 @@ export const TestimonialOneData = [
     },
     {
         id: 10,
-        image: "/assets/images/testimonial/testimonial-one-img-2.jpg",
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
+        alt: "Testimonial",
+        name: "Rubel Islam",
+        position: "Manager",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+]; Testimonial One
+export const TestimonialOneData = [
+    {
+        id: 1,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
+        alt: "Testimonial",
+        name: "Rashal Khan",
+        position: "Founder",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 2,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
+        alt: "Testimonial",
+        name: "Rubel Islam",
+        position: "Manager",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 3,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
+        alt: "Testimonial",
+        name: "Rashal Khan",
+        position: "Founder",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 4,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
+        alt: "Testimonial",
+        name: "Rubel Islam",
+        position: "Manager",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 5,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
+        alt: "Testimonial",
+        name: "Rashal Khan",
+        position: "Founder",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 6,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
+        alt: "Testimonial",
+        name: "Rubel Islam",
+        position: "Manager",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 7,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
+        alt: "Testimonial",
+        name: "Rashal Khan",
+        position: "Founder",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 8,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
+        alt: "Testimonial",
+        name: "Rubel Islam",
+        position: "Manager",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 9,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-1.jpg`,
+        alt: "Testimonial",
+        name: "Rashal Khan",
+        position: "Founder",
+        description: "Hiring managers are busy people, so you need to make yourout the crowd as quickly as possible. In the first section. This should headline achievements",
+    },
+    {
+        id: 10,
+        image: `${bp}/assets/images/testimonial/testimonial-one-img-2.jpg`,
         alt: "Testimonial",
         name: "Rubel Islam",
         position: "Manager",

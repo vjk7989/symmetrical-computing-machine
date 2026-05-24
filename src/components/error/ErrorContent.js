@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const ErrorContent = () => {
     return (
         <>
@@ -10,7 +12,7 @@ const ErrorContent = () => {
 						<div className="col-xl-12">
 							<div className="error-page__inner">
 								<div className="error-page__img">
-									<img src="/assets/images/resources/error-page-img-1.png" alt="" />
+									<img src={p+'/assets/images/resources/error-page-img-1.png'} alt="" />
 								</div>
 								<div className="error-page__btn-box">
 									<Link href="/" className="thm-btn error-page__btn">Go To Home</Link>

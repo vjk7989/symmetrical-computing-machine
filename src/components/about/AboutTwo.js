@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from "next/link";
 
+const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const AboutTwo = () => {
     return (
         <>
@@ -10,7 +12,7 @@ const AboutTwo = () => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="about-two__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                                 <div className="about-two__img">
-                                    <img src="/assets/images/backgrounds/about1.jpg" alt="" />
+                                    <img src={p+'/assets/images/backgrounds/about1.jpg'} alt="" />
                                 </div>
                             </div>
                         </div>

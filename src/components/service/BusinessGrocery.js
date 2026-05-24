@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const BusinessOptions = () => {
     return (
         <>
@@ -48,7 +50,7 @@ const BusinessOptions = () => {
                             <div className="col-xl-7 col-lg-7">
                                 <div className="service-details__top-right">
                                     <div className="service-details__top-img">
-                                        <img src="/assets/images/services/service-details-img-1.jpg" alt="" />
+                                        <img src={p+'/assets/images/services/service-details-img-1.jpg'} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +70,7 @@ const BusinessOptions = () => {
                             <div className="col-xl-5 col-lg-5">
                                 <div className="service-details__bottom-left">
                                     <div className="service-details__bottom-img">
-                                        <img src="/assets/images/services/service-details-img-2.jpg" alt="" />
+                                        <img src={p+'/assets/images/services/service-details-img-2.jpg'} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -88,13 +90,13 @@ const BusinessOptions = () => {
                                                         et dolore veniam, quis nostrud eullamconisi ut aliquip ex ea commodo
                                                         consequa.</p>
                                                     <div className="service-details__signature">
-                                                        <img src="/assets/images/services/service-details-sign.png" alt="" />
+                                                        <img src={p+'/assets/images/services/service-details-sign.png'} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-xl-5 col-lg-6">
                                                 <div className="service-details__signature-img">
-                                                    <img src="/assets/images/services/service-details-img-3.jpg" alt="" />
+                                                    <img src={p+'/assets/images/services/service-details-img-3.jpg'} alt="" />
                                                 </div>
                                             </div>
                                         </div>
