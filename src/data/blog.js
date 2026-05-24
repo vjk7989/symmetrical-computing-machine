@@ -1,9 +1,8 @@
 // Blog One
-const bp = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export const BlogOneData = [
     {
         id: 1,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -13,7 +12,7 @@ export const BlogOneData = [
     },
     {
         id: 2,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -23,7 +22,7 @@ export const BlogOneData = [
     },
     {
         id: 3,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -33,7 +32,7 @@ export const BlogOneData = [
     },
     {
         id: 4,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -43,7 +42,7 @@ export const BlogOneData = [
     },
     {
         id: 5,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -53,7 +52,7 @@ export const BlogOneData = [
     },
     {
         id: 6,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -63,7 +62,7 @@ export const BlogOneData = [
     },
     {
         id: 7,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -73,7 +72,7 @@ export const BlogOneData = [
     },
     {
         id: 8,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -83,7 +82,7 @@ export const BlogOneData = [
     },
     {
         id: 9,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -93,7 +92,7 @@ export const BlogOneData = [
     },
     {
         id: 10,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -103,7 +102,7 @@ export const BlogOneData = [
     },
     {
         id: 11,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -113,7 +112,7 @@ export const BlogOneData = [
     },
     {
         id: 12,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -127,7 +126,7 @@ export const BlogOneData = [
 export const BlogTwoData = [
     {
         id: 1,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -137,7 +136,7 @@ export const BlogTwoData = [
     },
     {
         id: 2,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -147,7 +146,7 @@ export const BlogTwoData = [
     },
     {
         id: 3,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -157,7 +156,7 @@ export const BlogTwoData = [
     },
     {
         id: 4,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -167,7 +166,7 @@ export const BlogTwoData = [
     },
     {
         id: 5,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -177,7 +176,7 @@ export const BlogTwoData = [
     },
     {
         id: 6,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -187,7 +186,7 @@ export const BlogTwoData = [
     },
     {
         id: 7,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -197,7 +196,7 @@ export const BlogTwoData = [
     },
     {
         id: 8,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -207,7 +206,7 @@ export const BlogTwoData = [
     },
     {
         id: 9,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -217,7 +216,7 @@ export const BlogTwoData = [
     },
     {
         id: 10,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -227,7 +226,7 @@ export const BlogTwoData = [
     },
     {
         id: 11,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -237,7 +236,7 @@ export const BlogTwoData = [
     },
     {
         id: 12,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -251,7 +250,7 @@ export const BlogTwoData = [
 export const BlogThreeData = [
     {
         id: 1,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -261,7 +260,7 @@ export const BlogThreeData = [
     },
     {
         id: 2,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -271,7 +270,7 @@ export const BlogThreeData = [
     },
     {
         id: 3,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -281,7 +280,7 @@ export const BlogThreeData = [
     },
     {
         id: 4,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -291,7 +290,7 @@ export const BlogThreeData = [
     },
     {
         id: 5,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -301,7 +300,7 @@ export const BlogThreeData = [
     },
     {
         id: 6,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -311,7 +310,7 @@ export const BlogThreeData = [
     },
     {
         id: 7,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -321,7 +320,7 @@ export const BlogThreeData = [
     },
     {
         id: 8,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -331,7 +330,7 @@ export const BlogThreeData = [
     },
     {
         id: 9,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -341,7 +340,7 @@ export const BlogThreeData = [
     },
     {
         id: 10,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -351,7 +350,7 @@ export const BlogThreeData = [
     },
     {
         id: 11,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -361,7 +360,7 @@ export const BlogThreeData = [
     },
     {
         id: 12,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -375,7 +374,7 @@ export const BlogThreeData = [
 export const BlogGridData = [
     {
         id: 1,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -385,7 +384,7 @@ export const BlogGridData = [
     },
     {
         id: 2,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -395,7 +394,7 @@ export const BlogGridData = [
     },
     {
         id: 3,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",
@@ -405,7 +404,7 @@ export const BlogGridData = [
     },
     {
         id: 4,
-        image: `${bp}/assets/images/blog/blog-one-img-1.jpg`,
+        image: "/assets/images/blog/blog-one-img-1.jpg",
         alt: "Blog Post",
         heading: "Business Conference Of Access To Blog.",
         category: "Corporate",
@@ -415,7 +414,7 @@ export const BlogGridData = [
     },
     {
         id: 5,
-        image: `${bp}/assets/images/blog/blog-one-img-2.jpg`,
+        image: "/assets/images/blog/blog-one-img-2.jpg",
         alt: "Blog Post",
         heading: "Business Plans That Fit Your Best Blog.",
         category: "Business",
@@ -425,7 +424,7 @@ export const BlogGridData = [
     },
     {
         id: 6,
-        image: `${bp}/assets/images/blog/blog-one-img-3.jpg`,
+        image: "/assets/images/blog/blog-one-img-3.jpg",
         alt: "Blog Post",
         heading: "The Revolutionise Your Workspace Blog.",
         category: "Technology",

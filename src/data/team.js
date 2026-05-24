@@ -1,9 +1,8 @@
 // Team One
-const bp = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export const TeamOneData = [
     {
         id: 1,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -14,7 +13,7 @@ export const TeamOneData = [
     },
     {
         id: 2,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -25,7 +24,7 @@ export const TeamOneData = [
     },
     {
         id: 3,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -36,7 +35,7 @@ export const TeamOneData = [
     },
     {
         id: 4,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -47,7 +46,7 @@ export const TeamOneData = [
     },
     {
         id: 5,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -58,7 +57,7 @@ export const TeamOneData = [
     },
     {
         id: 6,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -69,7 +68,7 @@ export const TeamOneData = [
     },
     {
         id: 7,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -80,7 +79,7 @@ export const TeamOneData = [
     },
     {
         id: 8,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -91,7 +90,7 @@ export const TeamOneData = [
     },
     {
         id: 9,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -102,7 +101,7 @@ export const TeamOneData = [
     },
     {
         id: 10,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -113,7 +112,7 @@ export const TeamOneData = [
     },
     {
         id: 11,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -124,7 +123,7 @@ export const TeamOneData = [
     },
     {
         id: 12,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -135,7 +134,7 @@ export const TeamOneData = [
     },
     {
         id: 13,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -146,7 +145,7 @@ export const TeamOneData = [
     },
     {
         id: 14,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -157,7 +156,7 @@ export const TeamOneData = [
     },
     {
         id: 15,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -168,7 +167,7 @@ export const TeamOneData = [
     },
     {
         id: 16,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -179,7 +178,7 @@ export const TeamOneData = [
     },
     {
         id: 17,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -190,7 +189,7 @@ export const TeamOneData = [
     },
     {
         id: 18,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -201,7 +200,7 @@ export const TeamOneData = [
     },
     {
         id: 19,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -212,7 +211,7 @@ export const TeamOneData = [
     },
     {
         id: 20,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -227,7 +226,7 @@ export const TeamOneData = [
 export const TeamTwoData = [
     {
         id: 1,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -238,7 +237,7 @@ export const TeamTwoData = [
     },
     {
         id: 2,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -249,7 +248,7 @@ export const TeamTwoData = [
     },
     {
         id: 3,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -260,7 +259,7 @@ export const TeamTwoData = [
     },
     {
         id: 4,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -271,7 +270,7 @@ export const TeamTwoData = [
     },
     {
         id: 5,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -282,7 +281,7 @@ export const TeamTwoData = [
     },
     {
         id: 6,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -293,7 +292,7 @@ export const TeamTwoData = [
     },
     {
         id: 7,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -304,7 +303,7 @@ export const TeamTwoData = [
     },
     {
         id: 8,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -315,7 +314,7 @@ export const TeamTwoData = [
     },
     {
         id: 9,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -326,7 +325,7 @@ export const TeamTwoData = [
     },
     {
         id: 10,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -337,7 +336,7 @@ export const TeamTwoData = [
     },
     {
         id: 11,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -348,7 +347,7 @@ export const TeamTwoData = [
     },
     {
         id: 12,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -359,7 +358,7 @@ export const TeamTwoData = [
     },
     {
         id: 13,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -370,7 +369,7 @@ export const TeamTwoData = [
     },
     {
         id: 14,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -381,7 +380,7 @@ export const TeamTwoData = [
     },
     {
         id: 15,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -392,7 +391,7 @@ export const TeamTwoData = [
     },
     {
         id: 16,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -403,7 +402,7 @@ export const TeamTwoData = [
     },
     {
         id: 17,
-        image: `${bp}/assets/images/team/team-one-img-1.jpg`,
+        image: "/assets/images/team/team-one-img-1.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -414,7 +413,7 @@ export const TeamTwoData = [
     },
     {
         id: 18,
-        image: `${bp}/assets/images/team/team-one-img-2.jpg`,
+        image: "/assets/images/team/team-one-img-2.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -425,7 +424,7 @@ export const TeamTwoData = [
     },
     {
         id: 19,
-        image: `${bp}/assets/images/team/team-one-img-3.jpg`,
+        image: "/assets/images/team/team-one-img-3.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",
@@ -436,7 +435,7 @@ export const TeamTwoData = [
     },
     {
         id: 20,
-        image: `${bp}/assets/images/team/team-one-img-4.jpg`,
+        image: "/assets/images/team/team-one-img-4.jpg",
         alt: "Team",
         name: "Md Rubel Islam",
         position: "Manager",

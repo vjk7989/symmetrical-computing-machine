@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import ProjectDetainsBGOne from '../../../public/assets/images/backgrounds/project-details-video-bg.jpg';
 
-const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 const ProjectDetails = () => {
     useEffect(() => {
 
@@ -86,7 +84,7 @@ const ProjectDetails = () => {
                         <div className="col-xl-7 col-lg-7">
                             <div className="all-poject__right">
                                 <div className="all-project__img">
-                                    <img src={p+'/assets/images/resources/all--project-img-1.jpg'} alt="" />
+                                    <img src="/assets/images/resources/all--project-img-1.jpg" alt="" />
                                 </div>
                             </div>
                         </div>

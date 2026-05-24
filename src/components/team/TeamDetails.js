@@ -1,8 +1,6 @@
 import React from 'react';
 import TeamOne from './TeamOne';
 
-const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 const TeamDetails = () => {
     return (
         <>
@@ -11,7 +9,7 @@ const TeamDetails = () => {
                   <div className="row">
                       <div className="col-xl-4 col-lg-5">
                           <div className="team-details__img">
-                              <img src={p+'/assets/images/team/team-details-img-1.jpg'} alt="" />
+                              <img src="/assets/images/team/team-details-img-1.jpg" alt="" />
                           </div>
                       </div>
                       <div className="col-xl-8 col-lg-7">
@@ -42,7 +40,7 @@ const TeamDetails = () => {
                               <div className="team-details__signature">
                                   <h4 className="team-details__signature-title">Signature: </h4>
                                   <div className="team-details__sign-img">
-                                      <img src={p+'/assets/images/team/team-details-sign-1.png'} alt="" />
+                                      <img src="/assets/images/team/team-details-sign-1.png" alt="" />
                                   </div>
                               </div>
                           </div>

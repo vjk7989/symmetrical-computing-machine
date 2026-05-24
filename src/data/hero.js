@@ -1,23 +1,22 @@
 // Hero One Data
-const bp = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export const HeroOneData = [
     {
         id: 1,
-        img: `${bp}/assets/images/resources/main-slider-img-1.png`,
+        img: "/assets/images/resources/main-slider-img-1.png",
         heading: "The Best Business for Agency.",
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered ulla pharetra magna etia..",
         video_url: "https://www.youtube.com/watch?v=Get7rqXYrbQ"
     },
     {
         id: 2,
-        img: `${bp}/assets/images/resources/main-slider-img-2.png`,
+        img: "/assets/images/resources/main-slider-img-2.png",
         heading: "Empower your Business with us",
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered ulla pharetra magna etia..",
         video_url: "https://www.youtube.com/watch?v=Get7rqXYrbQ"
     },
     {
         id: 3,
-        img: `${bp}/assets/images/resources/main-slider-img-1.png`,
+        img: "/assets/images/resources/main-slider-img-1.png",
         heading: "The Best Business for Agency.",
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered ulla pharetra magna etia..",
         video_url: "https://www.youtube.com/watch?v=Get7rqXYrbQ"
@@ -28,7 +27,7 @@ export const HeroOneData = [
 export const HeroTwoData = [
     {
         id: 1,
-        bg_img: `${bp}/assets/images/backgrounds/slider2.jpg`,
+        bg_img: "/assets/images/backgrounds/slider2.jpg",
         heading: "The Best Business for Agency.",
         // description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered ulla pharetra magna etia..",
         video_url: "https://www.youtube.com/watch?v=Get7rqXYrbQ",
@@ -37,7 +36,7 @@ export const HeroTwoData = [
     },
     {
         id: 2,
-        bg_img: `${bp}/assets/images/backgrounds/slider1.jpg`,
+        bg_img: "/assets/images/backgrounds/slider1.jpg",
         heading: "Empower your Business with us",
         // description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered ulla pharetra magna etia..",
         video_url: "https://www.youtube.com/watch?v=Get7rqXYrbQ",
@@ -46,7 +45,7 @@ export const HeroTwoData = [
     },
     {
         id: 3,
-        bg_img: `${bp}/assets/images/backgrounds/slider3.jpeg`,
+        bg_img: "/assets/images/backgrounds/slider3.jpeg",
         heading: "The Best Business for Agency.",
         // description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered ulla pharetra magna etia..",
         video_url: "https://www.youtube.com/watch?v=Get7rqXYrbQ",

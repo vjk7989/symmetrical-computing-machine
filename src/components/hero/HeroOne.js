@@ -3,8 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import { HeroOneData } from '@/data/hero';
 
-const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 // brands slider setting
 const setting = {
     slidesPerView: 1,
@@ -66,7 +64,7 @@ const HeroOne = () => {
                             <div className="main-slider-shape-3 zoominout"></div>
                             <div className="main-slider-shape-4 zoominout-2"></div>
                             <div className="main-slider-arrow">
-                                <img className="float-bob-y" src={p+'/assets/images/shapes/main-slider-arrow.png'} alt="" />
+                                <img className="float-bob-y" src="/assets/images/shapes/main-slider-arrow.png" alt="" />
                             </div>
                             <div className="container">
                                 <div className="row">

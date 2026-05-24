@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 
-const p = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 const SkillOne = () => {
     useEffect(() => {
 
@@ -138,7 +136,7 @@ const SkillOne = () => {
                             <div className="skill-one__right wow slideInRight" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
                                 <div className="skill-one__img">
-                                    <img src={p+'/assets/images/resources/skill-one-img-1.jpg'} alt="" />
+                                    <img src="/assets/images/resources/skill-one-img-1.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
