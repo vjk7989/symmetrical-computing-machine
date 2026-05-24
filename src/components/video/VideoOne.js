@@ -4,18 +4,18 @@ import VideoBGOne from '../../../public/assets/images/backgrounds/video-one-bg.j
 const VideoOne = () => {
 
     useEffect(() => {
-
-        if ($(".video-popup").length) {
-            $(".video-popup").magnificPopup({
-              type: "iframe",
-              mainClass: "mfp-fade",
-              removalDelay: 160,
-              preloader: true,
-        
-              fixedContentPos: false
-            });
+        if (typeof $ !== 'undefined') {
+            if ($(".video-popup").length) {
+                $(".video-popup").magnificPopup({
+                  type: "iframe",
+                  mainClass: "mfp-fade",
+                  removalDelay: 160,
+                  preloader: true,
+            
+                  fixedContentPos: false
+                });
+            }
         }
-          
     }, []);
 
     return (

@@ -35,8 +35,7 @@ export default function Document() {
             </Head>
             <body>
                 <Main />
-                <NextScript />
-                <script  src="/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+                <script src="/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
                 <script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
                 <script src="/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
                 <script src="/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
@@ -53,6 +52,7 @@ export default function Document() {
                 <script src="/assets/vendors/vegas/vegas.min.js"></script>
                 <script src="/assets/vendors/jquery-ui/jquery-ui.js"></script>
                 <script src="/assets/vendors/timepicker/timePicker.js"></script>
+                <NextScript />
             </body>
         </Html>
     )

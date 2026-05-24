@@ -4,9 +4,9 @@ import { ServiceOneData } from '@/data/service';
 
 const ServiceOne = () => {
     useEffect(() => {
-
-        if ($(".services-one__carousel").length) {
-            $(".services-one__carousel").owlCarousel({
+        if (typeof $ !== 'undefined') {
+            if ($(".services-one__carousel").length) {
+                $(".services-one__carousel").owlCarousel({
               loop: true,
               margin: 30,
               nav: false,
@@ -38,7 +38,7 @@ const ServiceOne = () => {
               }
             });
         }
-          
+        }
     }, []);
     return (
         <>

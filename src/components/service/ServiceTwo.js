@@ -6,8 +6,8 @@ import ServiceTwoBGTwo from '../../../public/assets/images/backgrounds/services-
 
 const ServiceTwo = () => {
   useEffect(() => {
-
-    if ($(".services-two__carousel").length) {
+    if (typeof $ !== 'undefined') {
+        if ($(".services-two__carousel").length) {
       $(".services-two__carousel").owlCarousel({
         loop: true,
         margin: 30,
@@ -40,7 +40,7 @@ const ServiceTwo = () => {
         }
       });
     }
-
+    }
   }, []);
   return (
     <>

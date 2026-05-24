@@ -4,41 +4,41 @@ import { BlogThreeData } from '@/data/blog';
 const BlogOne = () => {
 
     useEffect(() => {
-
-        if ($(".blog-one__carousel").length) {
-            $(".blog-one__carousel").owlCarousel({
-              loop: true,
-              margin: 30,
-              nav: false,
-              smartSpeed: 500,
-              autoHeight: false,
-              autoplay: true,
-              dots: true,
-              autoplayTimeout: 10000,
-              navText: [
-                '<span class="icon-left-arrow"></span>',
-                '<span class="icon-right-arrow"></span>'
-              ],
-              responsive: {
-                0: {
-                  items: 1
-                },
-                600: {
-                  items: 1
-                },
-                800: {
-                  items: 2
-                },
-                1024: {
-                  items: 3
-                },
-                1200: {
-                  items: 3
-                }
-              }
-            });
+        if (typeof $ !== 'undefined') {
+            if ($(".blog-one__carousel").length) {
+                $(".blog-one__carousel").owlCarousel({
+                  loop: true,
+                  margin: 30,
+                  nav: false,
+                  smartSpeed: 500,
+                  autoHeight: false,
+                  autoplay: true,
+                  dots: true,
+                  autoplayTimeout: 10000,
+                  navText: [
+                    '<span class="icon-left-arrow"></span>',
+                    '<span class="icon-right-arrow"></span>'
+                  ],
+                  responsive: {
+                    0: {
+                      items: 1
+                    },
+                    600: {
+                      items: 1
+                    },
+                    800: {
+                      items: 2
+                    },
+                    1024: {
+                      items: 3
+                    },
+                    1200: {
+                      items: 3
+                    }
+                  }
+                });
+            }
         }
-          
     }, []);
 
     return (
